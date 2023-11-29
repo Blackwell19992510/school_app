@@ -1,14 +1,13 @@
 <script setup>
 import navbar from './components/navbar.vue'
-import Coursespage from './components/views/CoursesPage.vue'
-import NewCourse from './components/views/NewCourse.vue'
+//import Coursespage from './components/views/CoursesPage.vue'
+//import NewCourse from './components/views/NewCourse.vue'
 </script>
 
 <template>
    <navbar />
-   <Coursespage />
-   <NewCourse />>
-</template>
+   <RouterView />
+   </template>
 
 <style scoped>
 header {
