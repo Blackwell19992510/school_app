@@ -14,10 +14,9 @@
             <router-link to="/coursespage"  class="nav-link">Courses</router-link>            
           </li>
         </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+        <li class="nav-item">
+            <router-link to="/newcourse"  class="nav-link">New Course</router-link>            
+        </li>
       </div>
     </div>
   </nav>
